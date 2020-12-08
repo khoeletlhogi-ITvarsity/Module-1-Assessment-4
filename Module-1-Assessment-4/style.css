@@ -1,0 +1,35 @@
+h1{
+    color: #023A68;
+    text-align: center;
+}
+.gallery img{
+    width: 30%;
+}
+.gallery img:hover{
+    width: 180px;
+    height: auto;
+}
+table{
+    border-collapse: collapse;
+    font-family: helvetica, sans-serif;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #023A68;
+    table-layout: auto;
+    background-color: #84C9EC;
+}
+td{
+    width: 150px;
+}
+th{
+    font-weight: 700;
+    background-color: #023A68;
+    color: #ffffff;
+}
+
+
+tr:nth-child(odd)
+{
+    background-color: #B7DBED;
+}
+    
